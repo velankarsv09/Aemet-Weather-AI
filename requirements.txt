@@ -1,0 +1,28 @@
+# AEMET Weather AI Assistant - Requirements
+# Install with: pip install -r requirements.txt
+
+# LangChain ecosystem
+langchain==1.3.2
+langchain-community==0.4.2
+langchain-core==1.4.0
+langchain-groq==1.1.2
+langchain-huggingface==1.2.2
+langchain-text-splitters==1.1.2
+langchain-chroma==1.1.0
+
+# LLM inference
+groq==0.37.1
+
+# Embeddings & vector store
+huggingface_hub==1.17.0
+sentence-transformers==5.5.1
+chromadb==1.5.9
+
+# Document processing
+pypdf==6.12.2
+
+# API & utilities
+requests==2.34.2
+pydantic==2.13.4
+python-dotenv==1.2.2
+langdetect==1.0.9
