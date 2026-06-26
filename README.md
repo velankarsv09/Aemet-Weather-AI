@@ -54,4 +54,20 @@ Language Detection
 langdetect 
 |
 
-## 📁 Project Structure
+## 📁 PHASE
+Phase 1 — Live weather Q&A
+AEMET API · LangChain · LLaMA 3 via Groq
+Demo: "Can I hike near Madrid this weekend?"
+52 Spanish provinces · multilingual EN/ES
+
+Phase 2 — RAG over AEMET alerts
+ChromaDB · HuggingFace embeddings · unified chain
+Demo: "What does an orange alert mean for cyclists?"
+432 chunks · semantic search · citations from official docs
+
+Phase 3 — Conversational agent with memory
+LangChain agent · tool use · session memory
+Tools: get_live_weather · search_alerts · compare_cities
+Demo: multi-turn conversation, follow-up questions
+Agent decides which tool to call based on question type
+
