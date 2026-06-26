@@ -26,3 +26,6 @@ requests==2.34.2
 pydantic==2.13.4
 python-dotenv==1.2.2
 langdetect==1.0.9
+
+# Phase 3 — Conversational Agent with Memory
+ipywidgets>=8.0.0
