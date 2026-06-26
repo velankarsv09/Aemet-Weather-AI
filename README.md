@@ -11,6 +11,8 @@ weather alert documents.
 - **Natural language Q&A** — ask weather questions in English or Spanish
 - **Multilingual** — automatically detects and responds in the language of the question
 - **Multi-city comparison** — compare weather across multiple Spanish cities simultaneously
+- - **Conversational memory** — multi-turn chat with session history via LangChain memory
+- **Agent with tools** — LLM autonomously selects the right tool per query
 
 ## 🛠️ Tech Stack
 
